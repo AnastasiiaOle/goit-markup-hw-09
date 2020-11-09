@@ -1,0 +1,45 @@
+.portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 34px;
+    }
+
+    &-item {
+        align-self: center;
+    }
+
+    &-item:not(:last-child) {
+        margin: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio {
+
+        &-list {
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 34px;
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio {
+        padding-top: 94px;
+        padding-bottom: 94px;
+
+        &-list {
+            flex-wrap: nowrap;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 34px;
+        }
+    }
+}

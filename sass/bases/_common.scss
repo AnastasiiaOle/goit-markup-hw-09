@@ -1,0 +1,88 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: $primary-text-color;
+
+    @media screen and (min-width: 320px)  and (max-width: 767px) {
+        min-width: 480px;
+    }
+}    
+
+.list {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.section-description {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.179;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $title-text-color;
+}
+
+
+@media screen and (min-width: 480px) {
+    .current::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+        left: 3px;
+    
+        bottom: -11px;
+    
+        position: absolute;
+    
+        background-color: $accent-color;
+    
+        border-radius: 2px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .current::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+    
+        bottom: -4px;
+    
+        position: absolute;
+    
+        background-color: $accent-color;
+    
+        border-radius: 2px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .current::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 100%;
+    
+        bottom: -4px;
+    
+        position: absolute;
+    
+        background-color: $accent-color;
+    
+        border-radius: 2px;
+    }
+
+    .section-description {
+        margin-bottom: 50px;
+        font-size: 36px;
+        line-height: 1.166;
+    }
+}

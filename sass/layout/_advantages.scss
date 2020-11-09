@@ -1,0 +1,110 @@
+.advantages {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    &-text {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.714;
+        letter-spacing: 0.03em;
+        color: $primary-text-color;
+
+    }
+
+    &-item::before {
+        padding-right: 100px;
+        margin-bottom: 30px;
+        display: block;
+        content: "";
+        height: 120px;
+        background-size: 70px 70px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: $background-color-team;
+    }
+
+    &-description {
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.143;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $title-text-color;
+    }
+
+    &-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+}
+
+    .icon-antenna::before {
+        background-image: url(../images/advantages/antenna.png);
+    }
+    
+    .icon-clock::before {
+        background-image: url(../images/advantages/clock.png);
+    }
+    
+    .icon-diagram::before {
+        background-image: url(../images/advantages/diagram.png);
+    }
+    
+    .icon-astronaut::before {
+        background-image: url(../images/advantages/astronaut.png);
+    }
+
+
+
+@media screen and (min-width: 480px) {
+    .advantages-list {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .advantages-description {
+        text-align: start;
+    }
+
+    .advantages-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .advantages-item {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .advantages {
+        padding-top: 94px;
+        padding-bottom: 0px;
+
+        &-text {
+            margin-bottom: 0;
+        }
+
+        &-item:not(:last-child) {
+            margin-right: 30px;
+        }
+
+    }
+    
+    .advantages-list {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .advantages-description {
+        text-align: start;    
+    }
+}

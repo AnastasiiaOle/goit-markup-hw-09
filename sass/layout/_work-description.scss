@@ -1,0 +1,44 @@
+    .work-description {
+        padding-top: 60px;
+        display: none;
+    }
+
+
+
+@media screen and (min-width: 1200px) {
+    .work-description {
+        padding-top: 94px;
+        display: block;
+        padding-bottom: 94px;
+    }
+    
+    .work-description-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .work-decription-item {
+        position: relative;
+    }
+    
+    .work-description-text {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 70px;
+        width: 100%;
+        background: rgba(47, 48, 58, 0.8);
+    }
+    
+    .text-description {
+        padding: 27px 52px;
+        margin: 0;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.142;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $white-text-color;
+    }  
+}

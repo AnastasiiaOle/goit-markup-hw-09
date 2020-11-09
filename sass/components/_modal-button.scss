@@ -1,0 +1,36 @@
+.modal-button,
+.modal-form-btn {
+    display: inline-block;
+    min-width: 200px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    align-items: center; 
+    letter-spacing: 0.06em;
+    color: $white-text-color;
+    background: $accent-color;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    }
+
+.modal-form-btn {
+    align-self: center;
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 31px;
+    border: none;
+    }
+
+@media screen and (min-width: 768px) {
+    .modal-form-btn {
+        align-self: center;
+        background: #188CE8;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        margin-top: 40px;
+        border: none;
+    }
+}

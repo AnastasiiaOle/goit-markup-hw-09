@@ -1,0 +1,21 @@
+@import "./utils/variables";
+@import "./utils/visually-hidden";
+
+@import "./bases/common";
+@import "./bases/container";
+
+
+@import "./components/logo";
+@import "./components/modal-button";
+@import "./components/modal";
+@import "./components/social-links";
+
+
+@import "./layout/header";
+@import "./layout/order-service";
+@import "./layout/advantages";
+@import "./layout/work-description";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/address";
+@import "./layout/footer";
